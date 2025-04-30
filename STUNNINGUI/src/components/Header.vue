@@ -6,7 +6,7 @@
         <!-- Logo -->
         <a href="/" class="flex items-center gap-2">
           <MinimalLogo class="h-6 w-6 text-emerald-500" />
-          <h1 class="text-xl font-bold text-primary">Acme</h1>
+          <h1 class="text-xl font-bold text-primary">HumanitariansAI</h1>
         </a>
   
         <!-- Navigation and Buttons -->
@@ -14,7 +14,7 @@
           <!-- Dropdown -->
           <div class="relative" @mouseenter="showDropdown = true" @mouseleave="showDropdown = false">
             <button class="text-sm font-medium text-neutral-700 hover:text-black flex items-center gap-1">
-              Features <span>▾</span>
+              Projects <span>▾</span>
             </button>
             <div
               v-if="showDropdown"
@@ -35,7 +35,7 @@
             </div>
           </div>
   
-          <a href="#" class="text-sm font-medium text-neutral-700 hover:text-black">Pricing</a>
+          <a href="#" class="text-sm font-medium text-neutral-700 hover:text-black">Services</a>
           <a href="#" class="text-sm font-medium text-neutral-700 hover:text-black">FAQ</a>
   
           <!-- Auth Buttons -->
