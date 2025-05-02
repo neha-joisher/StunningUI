@@ -5,6 +5,7 @@
     <FeatureGlobe />
     <Testimonials />
     <CallToAction />
+    <ConfettiCelebration />
     <Footer />
   </div>
 </template>
@@ -13,9 +14,11 @@
 import Header from './components/Header.vue'
 import HeroSection from './components/HeroSection.vue'
 import Testimonials from './components/Testimonials.vue'
-//import FeatureGlobe from './components/FeatureGlobe.vue'
+import FeatureGlobe from './components/FeatureGlobe.vue'
+import ConfettiCelebration from './components/ConfettiCelebration.vue'
 </script>
 
 <style>
+
 </style>
 
